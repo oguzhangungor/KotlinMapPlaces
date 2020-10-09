@@ -15,8 +15,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 
-class Permission() : AppCompatActivity() {
-
+class LocationPermissionActivity() : AppCompatActivity() {
     private lateinit var locationListener: LocationListener
     private lateinit var locationManager: LocationManager
 
